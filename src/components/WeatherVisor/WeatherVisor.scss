@@ -1,0 +1,33 @@
+.WeatherVisor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .today {
+    text-align: center;
+    background-color: #7aa5f2;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .week {
+    margin-top: 1em;
+    text-align: left;
+    background-color: #7aa5f2;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+    padding: 40px;
+    margin-left: 20px;
+
+    td{
+        padding: 7px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@mixin  transition($property){
+    transition: $property 0.2s ease-in-out;
+}
+
+body{
+    margin: 0;
+}
+main{
+    background-color: #e2e8f3;
+
+}
